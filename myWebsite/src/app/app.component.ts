@@ -70,8 +70,8 @@ export class AppComponent implements OnInit {
       disableWarnings: false,
       scrollToNewItems: false
     };
-    //dsadsdsasdasd
-
+    // dsadsdsasdasd
+ 
     this.dashboard = [
       {cols: 2, rows: 1, y: 0, x: 0},
       {cols: 2, rows: 2, y: 0, x: 2, hasContent: true},
