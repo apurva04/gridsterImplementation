@@ -10,6 +10,7 @@ export class AppComponent implements OnInit {
   title = 'app';
   options: GridsterConfig;
   dashboard: Array<GridsterItem>;
+  test:any;
 
   constructor(){
 
@@ -69,7 +70,7 @@ export class AppComponent implements OnInit {
       disableWarnings: false,
       scrollToNewItems: false
     };
-
+    //dsadsdsasdasd
 
     this.dashboard = [
       {cols: 2, rows: 1, y: 0, x: 0},
