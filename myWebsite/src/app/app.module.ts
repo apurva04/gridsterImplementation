@@ -4,16 +4,17 @@ import { GridsterModule } from 'angular-gridster2';
 
 
 import { AppComponent } from './app.component';
+import { RegistertionComponent } from './registertion/registertion.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
-    
+  AppComponent,
+  RegistertionComponent ,
   ],
   imports: [
-    BrowserModule,
-    GridsterModule
+  BrowserModule,
+  GridsterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
