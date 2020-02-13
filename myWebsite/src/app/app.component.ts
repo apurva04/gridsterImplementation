@@ -7,7 +7,7 @@ import { CompactType, DisplayGrid, GridsterConfig, GridsterItem, GridType } from
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'app';
+  title = 'myApp';
   options: GridsterConfig;
   dashboard: Array<GridsterItem>;
   flag: any = 1;
